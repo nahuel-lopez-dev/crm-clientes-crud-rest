@@ -1,3 +1,18 @@
 {
-  "clientes": []
+  "clientes": [
+    {
+      "nombre": "Nahuel",
+      "email": "nahuel.developer1@gmail.com",
+      "telefono": "1144445555",
+      "empresa": "Google",
+      "id": 1
+    },
+    {
+      "nombre": "Montoto",
+      "email": "montoto@correo.com",
+      "telefono": "1133339999",
+      "empresa": "Globant",
+      "id": 2
+    }
+  ]
 }

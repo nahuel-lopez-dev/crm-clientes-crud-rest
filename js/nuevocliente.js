@@ -1,4 +1,5 @@
 import { mostrarAlerta } from './funciones.js';
+import { nuevoCliente } from './API.js';
 
 // Usando una función IIFE (Immediately Invoked Function Expression) para encapsular el código
 (function(){
@@ -30,7 +31,8 @@ import { mostrarAlerta } from './funciones.js';
             return
         }
 
-        console.log('Si pasó la validación');
+        // Crear un nuevo cliente
+        nuevoCliente(cliente);
 
     }
 
