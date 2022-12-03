@@ -1,5 +1,5 @@
-# **`Proyecto X`** 
-# *`Practicando algo...`* 
+# **`CRM de clientes`** 
+# *`CRUD - REST API, con JSON Server `* 
 ### **`Nahuel-DevOne`**
 [![Contact Me](https://img.shields.io/badge/Email-informational?style=for-the-badge&logo=Mail.Ru&logoColor=fff&color=red)](mailto:nahue.developer1@gmail.com)
 [![LinkedId](https://img.shields.io/badge/LinkedIn-informational?style=for-the-badge&logo=linkedin&logoColor=fff&color=blue)](https://www.linkedin.com/in/nahuel-developer/)
@@ -7,13 +7,13 @@
 
 # *Información del proyecto:*
 
-El proyecto ...  
+El proyecto es un CRM de clientes, para practicar un CRUD, usando una API REST generada con JSON Server.  
 
 ## *Version 1.0.0:*
 
 - [![App](https://img.shields.io/badge/App-informational?style=for-the-badge&logo=netlify&logoColor=fff&color=23272d)](https://...)
 
-- No tiene incorporada ninguna base de datos
+- No tiene incorporada ninguna base de datos, el db.json simula la base de datos
 
 ## *Desarrollado con:*
 
@@ -21,14 +21,11 @@ El proyecto ...
 - [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 - [Tailwind](https://tailwindcss.com/)
-- [Bootstrap](https://getbootstrap.com/)
 - [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
-- [vite](https://vitejs.dev/guide/)
-- [React](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [JSON-Server](https://www.npmjs.com/package/json-server)
 
 
-## **Screenshots:**
+<!-- ## **Screenshots:** -->
 
 <!-- ### 1. Home:
 ## ![](public/images/flujo-compra/home.png)
@@ -41,13 +38,6 @@ El proyecto ...
 
 ## ![](public/images/flujo-compra/carrito-compra.png) -->
 
-# *Componentes:*
-
-<!-- ## 1. *Error*
-## 2. *Formulario*
-## 3. *Header*
-## 4. *ListadoPacientes*
-## 5. *Paciente* -->
 
   <!-- Hecho con amor -->
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Nahuel-Devone/)
