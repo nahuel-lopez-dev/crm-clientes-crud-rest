@@ -13,6 +13,13 @@
       "telefono": "1133339999",
       "empresa": "Globant",
       "id": 2
+    },
+    {
+      "nombre": "Fulano",
+      "email": "fulano@correo.com",
+      "telefono": "1133330202",
+      "empresa": "Accenture",
+      "id": 3
     }
   ]
 }
