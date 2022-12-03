@@ -1,3 +1,5 @@
+import { mostrarAlerta } from './funciones.js';
+
 // Usando una función IIFE (Immediately Invoked Function Expression) para encapsular el código
 (function(){
     // Definiendo las variables
@@ -24,7 +26,7 @@
         // Validar que los campos tengan algo escrito
         if( validar(cliente) ){
             // Mostrar mensaje
-            console.log('Todos los campos son obligatorios');
+            mostrarAlerta('Todos los campos son obligatorios');
             return
         }
 
