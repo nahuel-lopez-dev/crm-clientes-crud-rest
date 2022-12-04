@@ -1,4 +1,4 @@
-import { mostrarAlerta } from './funciones.js';
+import { mostrarAlerta, validar } from './funciones.js';
 import { nuevoCliente } from './API.js';
 
 // Usando una función IIFE (Immediately Invoked Function Expression) para encapsular el código
@@ -34,10 +34,6 @@ import { nuevoCliente } from './API.js';
         // Crear un nuevo cliente
         nuevoCliente(cliente);
 
-    }
-
-    function validar(obj){
-        return !Object.values(obj).every( input => input !== '' );
     }
 
 })();

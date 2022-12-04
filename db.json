@@ -8,16 +8,16 @@
       "id": 1
     },
     {
-      "nombre": "Montoto",
-      "email": "montoto@correo.com",
+      "nombre": "montoto@montoto.com",
+      "email": "montoto@montoto.com",
       "telefono": "1133339999",
       "empresa": "Globant",
       "id": 2
     },
     {
-      "nombre": "Fulano",
+      "nombre": "fulano@correo.com",
       "email": "fulano@correo.com",
-      "telefono": "1133330202",
+      "telefono": "1133338888",
       "empresa": "Accenture",
       "id": 3
     }

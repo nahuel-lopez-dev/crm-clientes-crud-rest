@@ -1,4 +1,5 @@
-import { obtenerCliente } from './API.js';
+import { obtenerCliente, editarCliente } from './API.js';
+import { mostrarAlerta, validar } from './funciones.js';
 
 // Usando una función IIFE (Immediately Invoked Function Expression) para encapsular el código
 (function(){
@@ -16,6 +17,9 @@ import { obtenerCliente } from './API.js';
         
         const cliente = await obtenerCliente(idCliente);
         mostrarCliente(cliente);
+
+        // Submit al formulario
+        formulario.addEventListener('submit', validarCliente);
     });
     
     function mostrarCliente(cliente){
@@ -26,6 +30,29 @@ import { obtenerCliente } from './API.js';
         telefonoInput.value = telefono;
         empresaInput.value = empresa;
         idInput.value = id;
+    }
+
+    function validarCliente(e){
+        e.preventDefault();
+
+        // Object literal enhanced
+        const cliente = {
+            nombre: nombreInput.value,
+            email: emailInput.value,
+            telefono: telefonoInput.value,
+            empresa: empresaInput.value,
+            id: parseInt(idInput.value)
+        }
+        
+        // Validar que los campos tengan algo escrito
+        if( validar(cliente) ){
+            // Mostrar mensaje
+            mostrarAlerta('Todos los campos son obligatorios');
+            return
+        }
+
+        // Reescribe el objeto
+        editarCliente(cliente);
     }
 
 })();
